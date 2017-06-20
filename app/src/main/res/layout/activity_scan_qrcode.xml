@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.android.androidscanner.Activity.ScanQRCode">
+
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Item Details"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SKU" />
+
+        <TextView
+            android:id="@+id/textViewSku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sku value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="type" />
+
+        <TextView
+            android:id="@+id/textViewType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="type value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="No of stones" />
+
+        <TextView
+            android:id="@+id/textViewNoOfStones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number of stones value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Stone Weight" />
+
+        <TextView
+            android:id="@+id/textViewStoneWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stone Weight value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Net Weight" />
+
+        <TextView
+            android:id="@+id/textViewNetWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Net Weight value(eg. Weight of ring without diamond)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Gross Weight" />
+
+        <TextView
+            android:id="@+id/textViewGrossWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gross Weight value(eg. Weight of ring with diamond)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Item Rate" />
+
+        <TextView
+            android:id="@+id/textViewItemRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Rate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <Button
+            android:id="@+id/buttonScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="scanQRCode"
+            android:text="Scan QR Code" />
+    </LinearLayout>
+
+</ScrollView>

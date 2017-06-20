@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.android.androidscanner.Activity.MainActivity">
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:background="@drawable/green_button"
+        android:onClick="openNewItemActivity"
+        android:text="New Item"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:background="@drawable/green_button"
+        android:onClick="openScanQRCodeActivity"
+        android:text="Scan QR Code"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="@drawable/green_button"
+        android:onClick="openGenerateQRCode"
+        android:text="Generate QR Code"/>
+
+</LinearLayout>
